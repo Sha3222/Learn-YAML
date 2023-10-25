@@ -11,7 +11,7 @@ subscription-manager repos --enable ansible-2.8-for-rhel-8-x86_64-rpms &>>/tmp/f
 dnf -y install ansible &>>/tmp/file.log
 ansible --version
 echo -e "\e[34m >>>>>>>>>>>>>>>>>>>>>>>>Ansible Status >>>>>>>>>>>>>>>>>>>>>\e[0m"
-sudo systemctl status sshd
+#sudo systemctl status sshd
 echo -e "\e[34m >>>>>>>>>>>>>>>>>>>>>>>>creating hosts file, creating /etc/ansible>>>>>>>>>>>>>>>>>>>>>\e[0m"
 sudo mkdir /etc/ansible
 cd /etc/ansible
