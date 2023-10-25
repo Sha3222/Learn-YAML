@@ -1,0 +1,7 @@
+- name: Multiple playbooks
+  hosts: localhost
+  tasks:
+    - name: "Print playbooks"
+      debug: msg="Hello World"
+    - name: "Test Connectivity"
+      ping:
