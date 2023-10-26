@@ -1,0 +1,5 @@
+- name: "Connect"
+  hosts: localhost
+  tasks:
+    - name: checking connectivity
+      ping:
