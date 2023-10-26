@@ -1,3 +1,4 @@
 variable=conntectivty.yml
-source.Automation.sh
+source Automation.sh
+
 copy_function
