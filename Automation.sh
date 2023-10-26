@@ -5,7 +5,7 @@ copy_function() {
   #echo -e "\e[34m >>>>>>>>>>>>>>>>>>pulling the git>>>>>>>>>>>>>>>>>>>>>>>[0m"
   #git pull >/dev/null
   echo -e "\e[34m >>>>>>>>>>>>>>>>>>copying the file>>>>>>>>>>>>>>>>>>>>>>>[0m"
-  cp ${varibale} /etc/ansible/playbooks
+  cp ${variable} /etc/ansible/playbooks
   cd /etc/ansible/playbooks
   ls
 }
