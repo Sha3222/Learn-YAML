@@ -1,4 +1,4 @@
-variable=conntectivty.yml
+variable=Connectivity_Remote_Client.yml
 source Automation.sh
 
 copy_function
