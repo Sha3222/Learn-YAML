@@ -3,7 +3,7 @@
   tasks:
     - name: work
       cron:
-        minute: "28"
+        minute: "30"
         hour:  "23"
         day: "*"
         month: "*"
