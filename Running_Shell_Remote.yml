@@ -4,6 +4,6 @@
     - name: first giving the execution permission
       file:
         path: ~/files/file.sh
-        mode: u+rwx
+        mode: a+rwx
     - name: running the shell script
       shell: "~/files/file.sh"
