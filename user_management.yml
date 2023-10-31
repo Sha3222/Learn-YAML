@@ -1,0 +1,8 @@
+- name: adding user
+  hosts: all
+  tasks:
+    name: Adding user, home directory and shell
+    user:
+      name: sha
+      home: /home/sha
+      shell: /bin/bash
