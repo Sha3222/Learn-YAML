@@ -2,4 +2,4 @@
   hosts: all
   tasks:
     - name: running the shell script
-      shell: "~/files/file.sh"
+      shell: "/tmp/file.sh"
