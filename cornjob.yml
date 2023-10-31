@@ -3,10 +3,10 @@
   tasks:
     - name: work
       corn:
-        minute: "0"
-        hour:  "10"
+        minute: "28"
+        hour:  "23"
         day: "*"
         month: "*"
-        weekday: "4"
+        weekday: "3"
         user: root
         job: "/tmp/file.sh"
