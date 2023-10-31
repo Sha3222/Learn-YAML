@@ -6,5 +6,4 @@
         path: ~/files/file.sh
         mode: u+rwx
     - name: running the shell script
-      shell:
-        path: ~file.sh
+      shell: "~/files/file.sh"
