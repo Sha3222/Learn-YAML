@@ -1,8 +1,8 @@
-- name: Corn job
+- name: Cron job
   hosts: all
   tasks:
     - name: work
-      corn:
+      cron:
         minute: "28"
         hour:  "23"
         day: "*"
