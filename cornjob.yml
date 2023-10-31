@@ -4,10 +4,10 @@
     - name: work
       cron:
         name: cronjob
-        minute: "32"
+        minute: "35"
         hour:  "23"
         day: "*"
         month: "*"
-        weekday: "3"
+        weekday: "2"
         user: root
         job: "/tmp/file.sh"
