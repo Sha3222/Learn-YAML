@@ -1,4 +1,4 @@
-variable=copying_files_remote.yml
+variable=Change_file_permissions.yml
 source Automation.sh
 
 copy_function
