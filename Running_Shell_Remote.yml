@@ -3,7 +3,7 @@
   tasks:
     - name: first giving the execution permission
       file:
-        path: /file.sh
+        path: ~/file.sh
         mode: u+rwx
     - name: running the shell script
       shell:
