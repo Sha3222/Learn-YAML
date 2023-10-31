@@ -3,7 +3,6 @@
   tasks:
     - name: work
       corn:
-        name: corn job
         minute: "0"
         hour:  "10"
         day: "*"
