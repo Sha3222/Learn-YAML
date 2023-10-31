@@ -7,7 +7,7 @@ copy_function() {
   echo -e "\e[34m >>>>>>>>>>>>>>>>>>copying the file>>>>>>>>>>>>>>>>>>>>>>>[0m"
   cp ${variable} /etc/ansible/playbooks
   cd /etc/ansible/playbooks
-  ls
+  ansible-playbook --check ${variable}
 }
 
 
