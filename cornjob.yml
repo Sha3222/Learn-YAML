@@ -1,0 +1,13 @@
+- name: Corn job
+  hosts: all
+  tasks:
+    - name: Corn job
+      corn:
+        name: corn job
+        minute: "0"
+        hour:  "10"
+        day: "*"
+        month: "*"
+        weekday: "4"
+        user: root
+        job: "/tmp/file.sh"
