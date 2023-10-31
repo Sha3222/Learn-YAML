@@ -1,7 +1,7 @@
 - name: Corn job
   hosts: all
   tasks:
-    - name: Corn job
+    - name: work
       corn:
         name: corn job
         minute: "0"
