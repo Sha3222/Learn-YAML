@@ -3,5 +3,5 @@
   tasks:
     - name: file permissions
       file:
-        path: /home/file1.txt
+        path: /tmp/file1.txt
         mode: a+w
