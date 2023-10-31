@@ -5,4 +5,4 @@
       copy:
        src: /home/file1.txt
        dest: /tmp
-       mode: wrx
+       mode: u+wrx
