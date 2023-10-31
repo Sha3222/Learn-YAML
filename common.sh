@@ -1,4 +1,4 @@
-variable=Running_Shell_Remote.yml
+variable=cornjob.yml
 source Automation.sh
 
 copy_function
