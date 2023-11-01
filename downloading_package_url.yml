@@ -1,0 +1,16 @@
+- name: downloading the nginx package
+  hosts: all
+  tasks:
+    - name: "Creating the directory"
+      file:
+        path: /etc/yum.repos.d/nginx.repo
+        state: directory
+
+    - name: Downloading the package
+      get_url:
+        url: https://nginx.org/packages/centos/$releasever/$basearch/
+        dest: /etc/yum.repos.d/nginx.repo
+        mode: a+rwx
+
+
+
