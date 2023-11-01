@@ -8,7 +8,7 @@
 
     - name: Downloading the package
       get_url:
-        url: https://nginx.org/packages/centos/$releasever/$basearch/
+        url: https://nginx.org/packages/centos/5/
         dest: /etc/yum.repos.d/nginx.repo
         mode: a+rwx
 
