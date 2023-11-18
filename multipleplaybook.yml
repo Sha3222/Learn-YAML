@@ -1,7 +1,10 @@
 - name: Multiple playbooks
   hosts: localhost
+  vars:
+    var=hello
   tasks:
     - name: "Print playbooks"
-      debug: msg="Hello World"
+      debug: msg="{{var}}"
+
     - name: "Test Connectivity"
       ping:
